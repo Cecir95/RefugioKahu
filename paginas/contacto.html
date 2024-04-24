@@ -42,25 +42,47 @@
         </nav>
     </header>
     <main>
-        <h1>Contacto</h1>
-        <div class="formulario">
-        <form id="contactoform" action="" method="POST" enctype="text/plain"> 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido">
-            <label for="consulta">Motivo de consulta</label>
-            <textarea name="consulta" id="" cols="30" rows="10"></textarea> 
-            <label for="celular">Numero de telefono</label>
-            <input type="text" name="numero de contacto"> 
-            <label for="email">Email</label>
-            <input type="text" name="email"> 
-            <button type="submit">Enviar 
-            <button type="reset">Borrar
-        </form>
-        </div>
-        <p class="producto">Encontranos acá</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3343.8655257593!2d-68.54389172345022!3d-33.06000697762464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDAzJzM2LjAiUyA2OMKwMzInMjguNyJX!5e0!3m2!1ses-419!2sar!4v1706724388254!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container">
+            <h1 class="text-center">Contacto</h1>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="" method="POST" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="consulta" class="form-label">Motivo de consulta</label>
+                            <textarea class="form-control" id="consulta" name="consulta" rows="5"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="celular" class="form-label">Número de teléfono</label>
+                            <input type="text" class="form-control" id="celular" name="numero de contacto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="reset" class="btn btn-secondary">Borrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mx-auto">
+                    <p class="text-center fw-bold">Encuéntranos aquí</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item mb-3 w-100" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3343.8655257593!2d-68.54389172345022!3d-33.06000697762464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDAzJzM2LjAiUyA2OMKwMzInMjguNyJX!5e0!3m2!1ses-419!2sar!4v1706724388254!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>            
     </main>
     <footer class="footer bg-dark text-white">
         <div class="container py-3">
