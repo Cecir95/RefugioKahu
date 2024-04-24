@@ -18,6 +18,10 @@ font-family: 'Teko', sans-serif;*/
 header{
     background-color: white;
 }
+.navbar-toggler {
+    width: 3rem;
+    padding: 0.25rem 0.5rem;
+}
 h1{
     font-family:"heyhoo" ;    
     text-align: center; 
@@ -33,9 +37,8 @@ h2{
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
-.inicio{
-    margin-left: 20%;
-}
+
+
 .horarios{
     text-align: center;
     margin-top: 1.5%;
@@ -45,24 +48,7 @@ h2{
 body{
     background-color: beige ;
 }
-nav ul{
-    text-align: center;
-    list-style: none;
-}
-nav li{
-    display: inline-block;
-}
-nav a{
-    font-family: sans-serif;
-    text-decoration: none;
-    color: black;
-    padding: 30px;
-    font-weight: bold;
-}
-nav .logo{
-    margin-left: 45%;
-    margin-bottom: 1.5%;
-}
+
 p{
     font-family: 'Dancing Script', cursive;
     margin-bottom: 1.5%;
