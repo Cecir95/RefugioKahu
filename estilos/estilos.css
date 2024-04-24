@@ -64,8 +64,14 @@ body{
 
 p {
     font-family: sans-serif;
+    font-size: large;
 }
-
+.gracias {
+    font-family: "heyhoo";
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
 #wsp{
     text-decoration: none;
     padding: 10px;
@@ -85,32 +91,6 @@ p {
     font-weight: bold;
 }
 
-.donaciones{
-    text-align: center;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-.donar{
-    border: none;
-    padding: 5px;
-    width: 30%;
-    height: 30%;
-    overflow: hidden;
-    margin-left: 37%;
-    margin-top: 1.5%;
-}
-.donarimg{
-    margin-left: 35%;
-}
-.imgd{
-    padding: 20px;
-}
-.gracias{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
 .producto{
     text-align: center;
     font-size: 20px;
